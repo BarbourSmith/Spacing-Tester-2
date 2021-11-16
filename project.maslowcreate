@@ -1698,6 +1698,31 @@
             "simplify": false
         },
         {
+            "atomType": "Rotate",
+            "name": "Rotate",
+            "x": 0.626984126984127,
+            "y": 0.4198717948717949,
+            "uniqueID": 466404,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/144705/206495ExtractTag"
+                },
+                {
+                    "name": "x-axis degrees",
+                    "ioValue": 0
+                },
+                {
+                    "name": "y-axis degrees",
+                    "ioValue": 180
+                },
+                {
+                    "name": "z-axis degrees",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
             "atomType": "Group",
             "name": "Group",
             "x": 0.7572751322751322,
@@ -1757,31 +1782,6 @@
             ]
         },
         {
-            "atomType": "Rotate",
-            "name": "Rotate",
-            "x": 0.6256613756613757,
-            "y": 0.6666666666666666,
-            "uniqueID": 466404,
-            "ioValues": [
-                {
-                    "name": "geometry",
-                    "ioValue": "atoms/144705/206495ExtractTag"
-                },
-                {
-                    "name": "x-axis degrees",
-                    "ioValue": 0
-                },
-                {
-                    "name": "y-axis degrees",
-                    "ioValue": 180
-                },
-                {
-                    "name": "z-axis degrees",
-                    "ioValue": 0
-                }
-            ]
-        },
-        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9867724867724867,
@@ -1791,6 +1791,19 @@
                 {
                     "name": "number or geometry",
                     "ioValue": "atoms/144705/656632Group"
+                }
+            ]
+        },
+        {
+            "atomType": "Stl",
+            "name": "Stl",
+            "x": 0.6845238095238095,
+            "y": 0.8782051282051283,
+            "uniqueID": 692062,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": "atoms/144705/206495ExtractTag"
                 }
             ]
         }
@@ -1826,6 +1839,13 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 466404,
+            "ap2ID": 640376
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "number or geometry",
             "ap2Primary": false,
             "ap1ID": 656632,
@@ -1840,17 +1860,17 @@
         },
         {
             "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 206495,
+            "ap2ID": 692062
+        },
+        {
+            "ap1Name": "geometry",
             "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 640376,
             "ap2ID": 656632
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 466404,
-            "ap2ID": 640376
         }
     ],
     "fileTypeVersion": 1,

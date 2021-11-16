@@ -4,3 +4,6 @@
 
 ![](/project.svg)
 
+This lets you create gears of a variety of profiles. The 'Number of Teeth' input determines the number of teeth while the 'Profile' input selects the type of belt the pulley is for.Â Profiles: 1=MXL 2=40DP 3=XL 4=H 5=T2.5 6=T5 7=T10 8=AT5 9=HTD_3mm 10=HTD_5mm 11=HTD_8mm 12=GT2_2mm 13=GT2_3mm 14=GT2_5mm
+
+

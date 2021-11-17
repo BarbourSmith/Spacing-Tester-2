@@ -83,7 +83,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 7.2
+                                    "ioValue": 7.3
                                 },
                                 {
                                     "name": "yDist",
@@ -125,7 +125,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -7.2
+                                    "ioValue": -7.3
                                 },
                                 {
                                     "name": "yDist",
@@ -833,8 +833,8 @@
                         {
                             "atomType": "Translate",
                             "name": "Translate",
-                            "x": 0.37774524158125916,
-                            "y": 0.6513409961685823,
+                            "x": 0.3796296296296296,
+                            "y": 0.6346153846153847,
                             "uniqueID": 217416,
                             "ioValues": [
                                 {
@@ -843,7 +843,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 7.2
+                                    "ioValue": 7.3
                                 },
                                 {
                                     "name": "yDist",
@@ -1153,7 +1153,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": -7.2
+                                    "ioValue": -7.3
                                 },
                                 {
                                     "name": "yDist",
